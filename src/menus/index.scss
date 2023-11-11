@@ -1,0 +1,8 @@
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@import './menuItem.scss';
