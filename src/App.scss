@@ -1,0 +1,35 @@
+@use 'sass:color';
+@import '~bootstrap/scss/bootstrap.scss';
+
+$font: Roboto, "Ubuntu", Arial, sans-serif;
+
+$body-bg: #122;
+$body-color: #fff;
+$text-color: $body-color;
+
+$color-accent: color.adjust($body-color, $alpha: -0.9);
+
+body {
+    background-color: $body-bg;
+    color: $body-color;
+    font-family: $font;
+}
+hr {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: $color-accent;
+}
+.app,
+.app > * {
+    display: block;
+}
+.app-top {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import 'menus/index.scss';
