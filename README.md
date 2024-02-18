@@ -1,5 +1,11 @@
+<p align="center"><img src="images/preview.png" width="400" alt="Preview Application"></p>
+
+https://github.com/ryomario/homepage
+
 # Homepage
-Simple homepage with some menus
+Simple homepage with some menus and clock app on top.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
